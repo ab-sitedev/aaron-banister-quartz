@@ -1,8 +1,9 @@
 ---
-author: Aaron Banister
-modified: 2025-11-27
 publish: true
+created: 2025-11-09T23:19:43.558-06:00
+modified: 2025-11-27
 ---
+
 Relationships between [[Business Application|business applications]], companies, groups, and provisioning engines
 
 | Field                     | Purpose                                                                       |

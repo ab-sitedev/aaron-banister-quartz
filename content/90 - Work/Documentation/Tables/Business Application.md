@@ -1,9 +1,11 @@
 ---
+publish: true
 created: 2025-11-26
 modified: 2025-11-27
-publish: true
 ---
+
 Business applications are records that describe software used by the organization in some way.
+
 # Key fields to know
 
 | Field               | Purpose                                                                                                                        |
