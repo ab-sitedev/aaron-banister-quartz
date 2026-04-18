@@ -1,5 +1,0 @@
-- TaskNotes
-- TaskForge
-- DataviewJS
-- Claude Code
-	- Custom slash commands

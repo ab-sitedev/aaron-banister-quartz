@@ -1,1 +1,0 @@
-Crossroads closes at 12:00 for lunch. They re-open at 1:00
