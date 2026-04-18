@@ -1,5 +1,0 @@
----
-created: 2025-11-10
-modified: 2025-12-05
-publish: true
----

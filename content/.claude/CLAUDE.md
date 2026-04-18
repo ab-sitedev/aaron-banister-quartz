@@ -1,1 +1,0 @@
-C:/Users/aaron/Obsidian/Aaron Banister/99 - System Definition/Claude/CLAUDE.md
