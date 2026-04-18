@@ -1,0 +1,47 @@
+{
+	"nodes":[
+		{"id":"f3538d10ffbddeb0","type":"group","x":-60,"y":-2320,"width":2560,"height":2060,"label":"PROCUREMENT"},
+		{"id":"b66af1df8141a87a","type":"group","x":1000,"y":-1200,"width":440,"height":920,"color":"4","label":"Catalog Client Scripts"},
+		{"id":"b8dc8d41d15647fb","type":"group","x":1000,"y":-2220,"width":440,"height":920,"color":"2","label":"UI Actions"},
+		{"id":"c5761d6fc1a74d4b","type":"group","x":-40,"y":-960,"width":920,"height":440,"color":"5","label":"User Interactive"},
+		{"id":"0f1a0674fe6f78c9","type":"file","file":"90 - Work/Documentation/Code/Provision Hardware.md","x":1020,"y":-2200,"width":400,"height":400,"color":"2"},
+		{"id":"1e2118f8791b6254","type":"file","file":"90 - Work/Documentation/Code/Generate Incident.md","x":1020,"y":-1720,"width":400,"height":400,"color":"2"},
+		{
+			"id":"564b106dcd23aeaf",
+			"type":"file",
+			"file":"90 - Work/Documentation/Code/Auto Fill Standard Devices.md",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":1020,
+			"y":-1180,
+			"width":400,
+			"height":400,
+			"color":"4"
+		},
+		{"id":"038efe5d9bcd4ec1","type":"file","file":"90 - Work/Documentation/Code/Dynamic RefQual on moden_reference.md","x":1020,"y":-700,"width":400,"height":400,"color":"4"},
+		{"id":"25e15db143b618c8","type":"file","file":"90 - Work/Documentation/Products/Hardware Procurement/Components/Equipment Request.md","x":-20,"y":-940,"width":400,"height":400,"color":"5"},
+		{"id":"89f4c189c83c88af","type":"file","file":"90 - Work/Documentation/Products/Hardware Procurement/Components/Line items to procure.md","x":460,"y":-940,"width":400,"height":400,"color":"5"},
+		{"id":"a189146743460aed","type":"file","file":"90 - Work/Documentation/Code/OOProcurementUtils.md","x":2000,"y":-2200,"width":480,"height":1000,"color":"1"},
+		{"id":"83f6c1e162d03ea0","type":"file","file":"90 - Work/Documentation/Code/OOProcurementUtilsAjax.md","x":2000,"y":-1200,"width":480,"height":880,"color":"1"},
+		{"id":"ec6fdda617808188","type":"file","file":"90 - Work/Documentation/Code/OOUserUtils.md","x":2000,"y":-3960,"width":480,"height":400,"color":"1"},
+		{"id":"e6e472469a459ff4","type":"file","file":"90 - Work/Documentation/Code/OOCatalogUtils.md","x":2000,"y":-2920,"width":480,"height":400,"color":"1"},
+		{"id":"d1c11f93bffa134d","type":"file","file":"90 - Work/Documentation/Code/Show fields for procurement agents.md","x":1020,"y":-2920,"width":400,"height":400,"color":"4"},
+		{"id":"203f80da58831f89","type":"file","file":"90 - Work/Documentation/Code/Autopopulate assignment group.md","x":1040,"y":-3960,"width":400,"height":400,"color":"4"}
+	],
+	"edges":[
+		{"id":"cf3ecbd4722541dc","fromFloating":false,"fromNode":"564b106dcd23aeaf","fromSide":"right","toNode":"83f6c1e162d03ea0","toSide":"left","label":"getStandardModels"},
+		{"id":"b715c684863cf1f7","fromNode":"1e2118f8791b6254","fromSide":"right","toNode":"a189146743460aed","toSide":"left","label":"canGenerateIncident()"},
+		{"id":"185adc1e28e21564","fromNode":"0f1a0674fe6f78c9","fromSide":"right","toNode":"a189146743460aed","toSide":"left","label":"canProvisionHardware()"},
+		{"id":"b90adc93ea321ea8","fromNode":"203f80da58831f89","fromSide":"right","toNode":"ec6fdda617808188","toSide":"left","label":"getUserGroups"},
+		{"id":"067b16d5e2b2e6ab","fromNode":"89f4c189c83c88af","fromSide":"right","toNode":"038efe5d9bcd4ec1","toSide":"left"},
+		{"id":"fd8bc6aea6fd3ba5","fromNode":"038efe5d9bcd4ec1","fromSide":"right","toNode":"83f6c1e162d03ea0","toSide":"left","label":"getAvailableModels"},
+		{"id":"eb0b07dedb7dd1f9","fromNode":"89f4c189c83c88af","fromSide":"right","toNode":"564b106dcd23aeaf","toSide":"left"},
+		{"id":"98f77d446b88afd0","fromNode":"25e15db143b618c8","fromSide":"right","toNode":"89f4c189c83c88af","toSide":"left"},
+		{"id":"34aa9044badc2871","fromNode":"d1c11f93bffa134d","fromSide":"right","toNode":"e6e472469a459ff4","toSide":"left","label":"getCompanyAndLocation"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

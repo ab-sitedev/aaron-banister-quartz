@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"04f8b8c591f48ff8","type":"group","x":-802,"y":-1460,"width":1256,"height":860,"label":"End User Support"},
+		{"id":"98436aa388cc8665","type":"group","x":-2120,"y":-1460,"width":1256,"height":570,"label":"Data Model"},
+		{"id":"a2db00906e90af14","type":"text","text":"# Product Definition\n**Navigating Care Platform**\n`cmdb_service_product_model`\n\nTemplate","x":-2100,"y":-1440,"width":372,"height":240,"color":"1"},
+		{"id":"f45232bc5a69b146","type":"text","text":"# Service Portfolio\n**Navigating Care Standard**\n**Navigating Care Pro**\n`service_offering`\n\nTiers/packages","x":-1678,"y":-1440,"width":372,"height":240,"color":"2"},
+		{"id":"566a9022bcf83314","type":"text","text":"# Customer Linkage\n**CI <> Account <> Model**\n`sn_install_base_item`\n\nBridge between CMDB and CSM","x":-2100,"y":-1150,"width":372,"height":240,"color":"4"},
+		{"id":"273d2189ea3c3535","type":"text","text":"# Sales Tracking\n**Symptom Pathways ** {sold to} **ABCS**\n`sn_isntall_base_sold_product`\n\nWhat was purchased and when","x":-1678,"y":-1150,"width":372,"height":240,"color":"5"},
+		{"id":"44f38e6a35488f0d","type":"text","text":"Incident `incident`","x":-360,"y":-860,"width":372,"height":60,"color":"2"},
+		{"id":"e6c52a4e1d845103","type":"text","text":"# Instance\n**ABCS - Navigating Care Production**\n`cmdb_ci_service_auto`\n\nThe actual per-customer deployed instance","x":-1256,"y":-1440,"width":372,"height":240,"color":"3"},
+		{"id":"35717e6df1466610","type":"text","text":"# Contract Repository\nTBD","x":-1256,"y":-1150,"width":372,"height":240,"color":"6"},
+		{"id":"098735d634435b8b","type":"text","text":"# Knowledge Management\n**Create new article(s)**\n**Update existing article(s)**\n`kb_knowledge`\n\nKnowledge hygiene/Case deflection","x":62,"y":-860,"width":372,"height":240,"color":"4"},
+		{"id":"0988be40c613d728","type":"text","text":"# Case Management\n**I can't access my charts**\n`sn_customerservice_case`\n\nExt. user interacting with support agent","x":-782,"y":-860,"width":372,"height":240,"color":"5"},
+		{"id":"6dba4c2628a6cf42","type":"text","text":"# Customer Support\n**Cases, Status tracking, FAQs**\n`/csm`\n\nExt. users needing assistance","x":-360,"y":-1440,"width":372,"height":240,"color":"#ff94f6"},
+		{"id":"c00c186e707dbf3f","type":"text","text":"Problem `problem`","x":-360,"y":-770,"width":372,"height":60,"color":"1"},
+		{"id":"602435415813812f","type":"text","text":"Change `change_request`","x":-360,"y":-680,"width":372,"height":60,"color":"6"},
+		{"id":"7f53b02fa8f32dd3","type":"text","text":"# Knowledge Management\n**How to look up charts**\n`kb_knowledge`\n\nCase deflection","x":-360,"y":-1150,"width":372,"height":240,"color":"4"},
+		{"id":"851f1e8d655f17b5","type":"text","text":"Incidents for snc_external users would incur a large amount of tech debt due to OOB restrictions on the incident table, as well as portal widgets in the ESC.\n\nIts good for the agent to know they're dealing with an external customer by the fact that they're working a case instead of an inc. Helps them say the right things...","x":-782,"y":-1440,"width":372,"height":290}
+	],
+	"edges":[
+		{"id":"ae1aba16af5c99bd","fromNode":"0988be40c613d728","fromSide":"right","toNode":"44f38e6a35488f0d","toSide":"left"},
+		{"id":"e408fbef4d39a6b7","fromNode":"0988be40c613d728","fromSide":"right","toNode":"c00c186e707dbf3f","toSide":"left"},
+		{"id":"b0b4a16bf86f8c7d","fromNode":"0988be40c613d728","fromSide":"right","toNode":"602435415813812f","toSide":"left"},
+		{"id":"85eccc0d59c7182f","fromNode":"44f38e6a35488f0d","fromSide":"right","toNode":"098735d634435b8b","toSide":"left"},
+		{"id":"7f152b837c193454","fromNode":"c00c186e707dbf3f","fromSide":"right","toNode":"098735d634435b8b","toSide":"left"},
+		{"id":"87cbbce544a0c5cf","fromNode":"602435415813812f","fromSide":"right","toNode":"098735d634435b8b","toSide":"left"},
+		{"id":"bd70b52000332d2a","fromNode":"6dba4c2628a6cf42","fromSide":"bottom","toNode":"7f53b02fa8f32dd3","toSide":"top"},
+		{"id":"48d2ec2237d37101","fromNode":"098735d634435b8b","fromSide":"top","toNode":"7f53b02fa8f32dd3","toSide":"right"},
+		{"id":"800e49b207d436fd","fromNode":"7f53b02fa8f32dd3","fromSide":"left","toNode":"0988be40c613d728","toSide":"top"}
+	]
+}

@@ -1,0 +1,10 @@
+Quest Prerequisites
+[[Monkey Madness II]]
+[[Song of the Elves]]
+[[Desert Treasure II]]
+[[While Guthix Sleeps]]
+[[The Final Dawn]]
+[[The Curse of Arrav]]
+[[Dragon Slayer II]]
+[[A Night at the Theatre]]
+[[Into the Tombs]]

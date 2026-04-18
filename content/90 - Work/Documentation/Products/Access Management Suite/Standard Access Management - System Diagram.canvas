@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"id":"4d4959e1d97bb6f8","type":"group","x":-660,"y":-1160,"width":1440,"height":1600,"label":"Core Business Processes"},
+		{"id":"bb6e83ca69c0cd7e","type":"group","x":1060,"y":-1160,"width":940,"height":2100,"label":"Common Business Logic"},
+		{"id":"a5806a713ae2f550","type":"group","x":1080,"y":-560,"width":440,"height":1480,"color":"#a143a3","label":"Fulfillment"},
+		{"id":"d9875b357b315643","type":"group","x":-640,"y":-1080,"width":1400,"height":460,"color":"4","label":"Onboarding"},
+		{"id":"df35a4968d293f2d","type":"group","x":-640,"y":-560,"width":1400,"height":460,"color":"3","label":"Intermediate Changes"},
+		{"id":"c2085f4740f9b8fb","type":"group","x":-640,"y":-40,"width":1400,"height":460,"color":"2","label":"Off-Boarding"},
+		{"id":"0e5795b2b8b62cab","type":"group","x":1080,"y":-1080,"width":900,"height":460,"color":"#489d52","label":"Work Obligation"},
+		{"id":"80747ffffd35ab12","type":"file","file":"90 - Work/Documentation/Products/Access Management Suite/Obligate Provisioning Resources.md","x":1100,"y":-1040,"width":400,"height":400},
+		{"id":"1fb996bb60de12ad","type":"file","file":"90 - Work/Documentation/Tables/Access Profile.md","x":-620,"y":-1640,"width":400,"height":400},
+		{"id":"4792d6912ae10c12","type":"file","file":"90 - Work/Documentation/Products/Access Management Suite/Access Management Overview.md","x":-1520,"y":-1040,"width":800,"height":1440},
+		{"id":"e2ea6d5e0d000957","type":"file","file":"90 - Work/Documentation/Products/Access Management Suite/New Hire Onboarding.md","x":-620,"y":-1040,"width":400,"height":400},
+		{"id":"0993243a57adf326","type":"file","file":"90 - Work/Documentation/Products/Access Management Suite/Third Party Access (Deprecated).md","x":-140,"y":-1040,"width":400,"height":400},
+		{"id":"7e81d68214afd82d","type":"file","file":"90 - Work/Documentation/Products/Access Management Suite/Create Provisioning Tasks and Emails.md","x":1560,"y":-1040,"width":400,"height":400},
+		{"id":"260d90158247c4d1","type":"file","file":"90 - Work/Documentation/Products/Access Management Suite/Extend Renew Access.md","x":340,"y":-520,"width":400,"height":400},
+		{"id":"f3744fb31b9f422f","type":"file","file":"90 - Work/Documentation/Products/Access Management Suite/Termination of Employment.md","x":-620,"y":0,"width":400,"height":400},
+		{"id":"707ef3bf7a8f75b6","type":"file","file":"90 - Work/Documentation/Products/Access Management Suite/Access Request.md","x":-620,"y":-520,"width":400,"height":400},
+		{"id":"61f53b1245f6c95c","type":"file","file":"90 - Work/Documentation/Products/Access Management Suite/Role Change.md","x":-140,"y":-520,"width":400,"height":400},
+		{"id":"610633711f0fc3ee","type":"file","file":"90 - Work/Documentation/Products/Access Management Suite/Create Access Checklist.md","x":1100,"y":-520,"width":400,"height":400},
+		{"id":"63884da345c857b0","type":"text","text":"**\\[checklist\\]**","x":1700,"y":-30,"width":205,"height":60},
+		{"id":"7eaaaad917dfd8eb","type":"file","file":"90 - Work/Documentation/Tables/Access Grant.md","x":2080,"y":-520,"width":400,"height":400},
+		{"id":"26723917dc09bc7e","type":"file","file":"90 - Work/Documentation/Products/Access Management Suite/Process Access Grants.md","x":1100,"y":0,"width":400,"height":900},
+		{"id":"5e247f7762dbad00","type":"text","text":"**\\[checklist_item\\]**\n\nName\nCI\nOperation","x":1700,"y":30,"width":205,"height":140}
+	],
+	"edges":[
+		{"id":"abb9fc62ac94fc01","fromNode":"80747ffffd35ab12","fromSide":"right","toNode":"7e81d68214afd82d","toSide":"left"},
+		{"id":"2ff6dcf2ec761b1e","fromNode":"80747ffffd35ab12","fromSide":"bottom","toNode":"610633711f0fc3ee","toSide":"top"},
+		{"id":"c839a4629a6ad123","fromNode":"610633711f0fc3ee","fromSide":"bottom","toNode":"26723917dc09bc7e","toSide":"top"},
+		{"id":"535ecd9bfb7fc1a7","fromNode":"610633711f0fc3ee","fromSide":"right","toNode":"63884da345c857b0","toSide":"top"},
+		{"id":"2bd6fe7c51985993","fromNode":"5e247f7762dbad00","fromSide":"bottom","toNode":"26723917dc09bc7e","toSide":"right"},
+		{"id":"a1648cfd26451f24","fromNode":"d9875b357b315643","fromSide":"right","toNode":"0e5795b2b8b62cab","toSide":"left"},
+		{"id":"a0c1221c688e1579","fromNode":"df35a4968d293f2d","fromSide":"right","toNode":"0e5795b2b8b62cab","toSide":"left"},
+		{"id":"2f36a0e8046633e5","fromNode":"c2085f4740f9b8fb","fromSide":"right","toNode":"0e5795b2b8b62cab","toSide":"left"},
+		{"id":"2eb3d15f54a5dd52","fromNode":"a5806a713ae2f550","fromSide":"right","toNode":"7eaaaad917dfd8eb","toSide":"left"},
+		{"id":"606211fd9d530cd8","fromNode":"1fb996bb60de12ad","fromSide":"right","toNode":"e2ea6d5e0d000957","toSide":"right"},
+		{"id":"b2fd34163fe21f1f","fromNode":"1fb996bb60de12ad","fromSide":"right","toNode":"61f53b1245f6c95c","toSide":"left"},
+		{"id":"10e64e007a7e0e29","fromNode":"7eaaaad917dfd8eb","fromSide":"left","toNode":"260d90158247c4d1","toSide":"top"}
+	]
+}

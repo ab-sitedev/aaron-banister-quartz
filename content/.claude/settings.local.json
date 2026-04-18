@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(obsidian tasks:*)",
+      "Bash(obsidian recents:*)",
+      "Bash(obsidian orphans:*)",
+      "Bash(obsidian files:*)"
+    ]
+  }
+}
