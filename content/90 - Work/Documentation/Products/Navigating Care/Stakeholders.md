@@ -1,3 +1,0 @@
-Tom McGovern tmcgovern@navigatingcancer.com
-Suchaya Laddaphan sladdaphan@navigatingcancer.com
-Reed Tomlinson rtomlinson@navigatingcancer.com
