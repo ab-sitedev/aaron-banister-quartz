@@ -2,8 +2,8 @@
 publish: true
 title: Homepage
 created: 2026-04-18T18:21:15.557-05:00
-modified: 2026-04-19T11:00:27.617-05:00
-published: 2026-04-19T11:00:27.617-05:00
+modified: 2026-04-19T11:01:52.369-05:00
+published: 2026-04-19T11:01:52.369-05:00
 hideMeta: true
 ---
 
@@ -23,6 +23,7 @@ hideMeta: true
 	    <img src="https://abdesign.imgix.net/about_hero_min.png">
 	</div>
 </div>
+
 On this website, I'll mainly post about ServiceNow projects I find interesting.
 Those will be over here → [[ServiceNow/index|ServiceNow]]
 
