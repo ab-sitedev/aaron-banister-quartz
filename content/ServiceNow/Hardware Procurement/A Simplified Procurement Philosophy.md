@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-04-18T22:52:32.204-05:00
-modified: 2026-04-19T16:38:44.647-05:00
-published: 2026-04-19T16:38:44.647-05:00
+modified: 2026-04-19T16:41:08.454-05:00
+published: 2026-04-19T16:41:08.454-05:00
 ---
 
 > [!Attention] A Grain of Salt
@@ -20,7 +20,7 @@ ServiceNow's vision for employee-driven procurement is very _"Amazon-esque"_. Us
 
 This setup gives users a ton of autonomy - And who doesn't love shopping on Amazon? It's a pretty familiar user experience and seeing it implemented in the Employee Center looks very nice.
 
-### But Here's Where It Gets Clunky
+### But It Can Get Clunky
 
 - Each piece of hardware requires its own catalog item (Catalog starts to feel bloated)
 - Each catalog item can look slightly different (Users want consistency)
