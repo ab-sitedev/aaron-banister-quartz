@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/258b58fa-4216-467d-b429-421e1a10c4b6/deploy-status)](https://app.netlify.com/projects/abquartz/deploys)
 # Quartz v4
 
 > “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
