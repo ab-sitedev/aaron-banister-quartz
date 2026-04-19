@@ -2,7 +2,7 @@
 publish: true
 title: Homepage
 created: 2026-04-18T18:21:15.557-05:00
-modified: 2026-04-18T20:51:56.485-05:00
+modified: 2026-04-18T20:56:58.206-05:00
 ---
 
 Hey! I'm Aaron. I'm a...
@@ -13,6 +13,6 @@ Hey! I'm Aaron. I'm a...
 - 🧑🏻‍👩🏻‍👧🏼 Father
 
 On this website, I'll mainly post about ServiceNow projects I find interesting.
-Those will be over here → [[ServiceNow]]
+Those will be over here → [[ServiceNow/index|ServiceNow]]
 
 Thanks for stopping by!
