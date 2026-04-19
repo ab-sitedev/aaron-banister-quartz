@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-04-18T23:28:12.406-05:00
-modified: 2026-04-18T23:53:42.173-05:00
-published: 2026-04-18T23:53:42.173-05:00
+modified: 2026-04-19T00:57:18.208-05:00
+published: 2026-04-19T00:57:18.208-05:00
 ---
 
 # Putting It Into Practice
@@ -60,7 +60,8 @@ setDisplayName: function(current) {
 }
 ```
 
-Something to note: The GlideRecord query looks up matching records in order based on the `order` field. Use this to your advantage and thoughtfully set your `order` values in the override records. First match wins.
+> [!note]
+> The GlideRecord query looks up matching records in order based on the `order` field. Use this to your advantage and thoughtfully set your `order` values in the override records. First match wins.
 
 ## The Mail Script
 
