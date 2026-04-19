@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-04-18T22:52:32.204-05:00
-modified: 2026-04-19T15:46:10.598-05:00
-published: 2026-04-19T15:46:10.598-05:00
+modified: 2026-04-19T15:53:28.292-05:00
+published: 2026-04-19T15:53:28.292-05:00
 ---
 
 > [!Attention] A Grain of Salt
@@ -39,11 +39,17 @@ After toiling over less-than-sufficient OOB solutions, I began working with our 
 
 **We settled on these tenets:**
 
-1. Don't make users "shop" a catalog for their hardware.
+1. **Don't make users "shop" a catalog for their hardware.**
    Give users a single catalog item that supports multiple hardware items.
-2. Empower procurement admins to manage hardware availability and metadata directly in production.
-   _**(Eliminate dev effort)**_
-3. Simplify approvals - They can still be procedural, but have them apply to the whole request instead of each individual item.
-4. Integrate seamlessly with ServiceNow's Asset Management and Purchase Order modules.
 
-**Next:** An overview of our procurement implementation's tech stack (Coming soon)
+2. **Empower procurement admins.**
+   Let them manage hardware availability and metadata directly in production.
+   ==\*(Eliminate dev effort)\*==
+
+3. **Simplify approvals.**
+   They can still be procedural, but have them apply to the whole request instead of each individual item.
+
+4. **Integrate seamlessly...**
+   ...with ServiceNow's Asset Management and Purchase Order modules.
+
+**Next:** An overview of our procurement implementation's tech stack _(Coming soon...)_
