@@ -2,8 +2,8 @@
 publish: true
 title: Homepage
 created: 2026-04-18T18:21:15.557-05:00
-modified: 2026-04-19T11:03:53.461-05:00
-published: 2026-04-19T11:03:53.461-05:00
+modified: 2026-04-19T11:10:08.187-05:00
+published: 2026-04-19T11:10:08.187-05:00
 hideMeta: true
 ---
 
@@ -19,8 +19,8 @@ hideMeta: true
         </ul>
     </div>
     <!-- Right Column -->
-    <div style="flex: 1 1 300px; padding: 20px; background-color: #fff; display: flex; align-items: center; justify-content: center;">
-	    <img src="https://abdesign.imgix.net/about_hero_min.png">
+    <div style="flex: 1 1 300px; padding: 20px; display: flex; align-items: center; justify-content: center;">
+	    <img style="border: 10px solid #fff" src="https://abdesign.imgix.net/about_hero_min.png">
 	</div>
 </div>
 
