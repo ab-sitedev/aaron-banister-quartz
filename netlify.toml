@@ -1,4 +1,3 @@
-toml
 [[headers]]
   for = "/static/giscus/*"
   [headers.values]
