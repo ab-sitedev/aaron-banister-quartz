@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-04-18T23:28:12.406-05:00
-modified: 2026-04-18T23:49:53.325-05:00
-published: 2026-04-18T23:49:53.325-05:00
+modified: 2026-04-18T23:53:42.173-05:00
+published: 2026-04-18T23:53:42.173-05:00
 ---
 
 # Putting It Into Practice
@@ -79,9 +79,7 @@ Now all you have to do is create an Email Display Name Override record that appl
 | Name    | Table    | Conditions | Email display name | Active | Order  |
 | ------- | -------- | ---------- | ------------------ | ------ | ------ |
 | Default | Incident |            | IT Service Desk    | true   | 10,000 |
-
-### Result
-
+**Result**
 Email from: **IT Service Desk \<instanceName@service-now.com>**
 
 ## Assignment Group Specific
@@ -89,7 +87,5 @@ Email from: **IT Service Desk \<instanceName@service-now.com>**
 | Name             | Table    | Conditions               | Email display name   | Active | Order |
 | ---------------- | -------- | ------------------------ | -------------------- | ------ | ----- |
 | Firewall Support | Incident | assignment\_group=_sysId_ | ACME Network Support | True   | 100   |
-
-### Result
-
+**Result**
 Email from: **ACME Network Support \<instanceName@service-now.com>**
