@@ -2,12 +2,12 @@
 publish: true
 title: Homepage
 created: 2026-04-18T18:21:15.557-05:00
-modified: 2026-04-19T11:02:12.682-05:00
-published: 2026-04-19T11:02:12.682-05:00
+modified: 2026-04-19T11:03:53.461-05:00
+published: 2026-04-19T11:03:53.461-05:00
 hideMeta: true
 ---
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; padding: 0 0 40px 0; font-family: sans-serif;">
+<div style="display: flex; flex-wrap: wrap; gap: 20px; padding: 0 0 20px 0; font-family: sans-serif;">
     <!-- Left Column -->
     <div style="flex: 1 1 300px; padding: 8px; border: 0px solid #ccc;">
         <p>Hey! My name's Aaron. I'm a...</p>
