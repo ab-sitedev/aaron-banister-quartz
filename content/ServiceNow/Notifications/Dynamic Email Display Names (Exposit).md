@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-04-18T21:45:44.526-05:00
-modified: 2026-04-18T23:29:26.165-05:00
-published: 2026-04-18T23:29:26.165-05:00
+modified: 2026-04-18T23:52:06.642-05:00
+published: 2026-04-18T23:52:06.642-05:00
 ---
 
 Every ServiceNow email comes from a system-defined sender (`sys_email_account`).
@@ -53,10 +53,10 @@ Instead of cloning notifications, move the logic to a dedicated table.
 
 ## Email Display Name Override
 
-|Name|Table|Conditions|Email Display Name|
-|---|---|---|---|
-|Default|Incident|(Blank)|IT Service Desk|
-|Verily|Incident|Assignment Group = OO-Corp-Research-Verily|Verily Support|
+| Name             | Table    | Conditions                    | Email Display Name   |
+| ---------------- | -------- | ----------------------------- | -------------------- |
+| Default          | Incident | (Blank)                       | IT Service Desk      |
+| Firewall Support | Incident | Assignment Group = Networking | ACME Network Support |
 
 **Now:**
 
