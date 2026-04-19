@@ -1,0 +1,6 @@
+toml
+[[headers]]
+  for = "/static/giscus/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "https://giscus.app"
+    Vary = "Origin"
