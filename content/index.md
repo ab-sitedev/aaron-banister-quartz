@@ -2,8 +2,8 @@
 publish: true
 title: Homepage
 created: 2026-04-18T18:21:15.557-05:00
-modified: 2026-04-19T11:10:08.187-05:00
-published: 2026-04-19T11:10:08.187-05:00
+modified: 2026-04-19T15:05:15.357-05:00
+published: 2026-04-19T15:05:15.357-05:00
 hideMeta: true
 ---
 
@@ -27,6 +27,6 @@ hideMeta: true
 On this website, I'll mainly post about ServiceNow projects I find interesting.
 Those will be over here → [[ServiceNow/index|ServiceNow]]
 
-If you're curious about my aviation activity, check out the [[Captain's Log/index|Captain's Log]]
+If you're curious about my aviation activity, check out the [[Aviation/index|Aviation]] folder.
 
 Thanks for stopping by!
