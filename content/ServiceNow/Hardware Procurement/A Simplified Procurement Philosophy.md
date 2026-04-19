@@ -1,13 +1,12 @@
 ---
 publish: true
 created: 2026-04-18T22:52:32.204-05:00
-modified: 2026-04-19T15:36:18.643-05:00
-published: 2026-04-19T15:36:18.643-05:00
+modified: 2026-04-19T15:42:48.544-05:00
+published: 2026-04-19T15:42:48.544-05:00
 ---
 
 > [!Attention] A Grain of Salt
 > Every company uses ServiceNow differently.
->
 > Because of that, you might disagree with the below assessment and therefore also the solution.
 >
 > The described solution resonated with the stakeholders in my business, which means it might resonate with yours too!
