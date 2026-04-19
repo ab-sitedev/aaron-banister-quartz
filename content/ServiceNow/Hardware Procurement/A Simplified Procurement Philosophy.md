@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-04-18T22:52:32.204-05:00
-modified: 2026-04-19T16:25:55.286-05:00
-published: 2026-04-19T16:25:55.286-05:00
+modified: 2026-04-19T16:38:44.647-05:00
+published: 2026-04-19T16:38:44.647-05:00
 ---
 
 > [!Attention] A Grain of Salt
@@ -12,7 +12,7 @@ published: 2026-04-19T16:25:55.286-05:00
 > The described solution resonated with the stakeholders in my business, which means it might resonate with yours too!
 > Let me know what you think in the comments. ✌🏻
 
-## The Out-of-Box Intention (The Problem)
+## The Out-of-Box Intention
 
 ServiceNow's vision for employee-driven procurement is very _"Amazon-esque"_. Users search the catalog for the hardware they want, click into each item, and add to cart.
 
