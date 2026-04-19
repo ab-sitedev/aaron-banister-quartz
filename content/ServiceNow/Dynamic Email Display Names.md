@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-04-18T21:45:44.526-05:00
-modified: 2026-04-18T23:21:04.058-05:00
-published: 2026-04-18T23:21:04.058-05:00
+modified: 2026-04-18T23:21:54.102-05:00
+published: 2026-04-18T23:21:54.102-05:00
 ---
 
 Every ServiceNow email comes from a system-defined sender (`sys_email_account`).
@@ -42,6 +42,7 @@ And when emails come from the wrong name, users stop trusting the system.
 # The Better Approach: Email Display Name Override
 
 **One notification. _Dynamic_ display names.**
+
 Instead of cloning notifications, move the logic to a dedicated table.
 
 ## Notification (Keep it simple)
@@ -50,7 +51,7 @@ Instead of cloning notifications, move the logic to a dedicated table.
 | ------------------- | -------- | --------- | ---------- | ------- |
 | Incident was opened | Incident | True      | (Blank)    | (Blank) |
 
-## Email Display Name Overrides
+## Email Display Name Override
 
 |Name|Table|Conditions|Email Display Name|
 |---|---|---|---|
