@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-04-18T21:45:44.526-05:00
-modified: 2026-04-18T23:02:38.169-05:00
-published: 2026-04-18T23:02:38.169-05:00
+modified: 2026-04-18T23:21:04.058-05:00
+published: 2026-04-18T23:21:04.058-05:00
 ---
 
 Every ServiceNow email comes from a system-defined sender (`sys_email_account`).
@@ -29,7 +29,7 @@ The naive approach is to duplicate notifications with different conditions:
 - Slightly different filters
 - Different “From” values
 
-  That's clunky, error-prone, and it doesn't scale.
+That's clunky, error-prone, and it doesn't scale.
 
 You end up with:
 
