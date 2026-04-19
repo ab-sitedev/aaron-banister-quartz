@@ -1,7 +1,8 @@
 ---
 publish: true
 created: 2026-04-18T21:45:44.526-05:00
-modified: 2026-04-18T21:49:37.400-05:00
+modified: 2026-04-18T23:02:38.169-05:00
+published: 2026-04-18T23:02:38.169-05:00
 ---
 
 Every ServiceNow email comes from a system-defined sender (`sys_email_account`).
@@ -19,6 +20,7 @@ You _can_ override this on a notification-by-notification basis using the `from`
 # Where Things Break Down
 
 ==What if the display name should change based on the \*\*record itself\*\*?==
+
 **Example:** _A different name depending on Incident assignment group_.
 
 The naive approach is to duplicate notifications with different conditions:
