@@ -2,7 +2,7 @@
 publish: true
 title: Homepage
 created: 2026-04-18T18:21:15.557-05:00
-modified: 2026-04-18T20:56:58.206-05:00
+modified: 2026-04-18T22:33:31.005-05:00
 ---
 
 Hey! I'm Aaron. I'm a...
