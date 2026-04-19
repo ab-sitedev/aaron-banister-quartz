@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-04-18T21:45:44.526-05:00
-modified: 2026-04-18T23:52:06.642-05:00
-published: 2026-04-18T23:52:06.642-05:00
+modified: 2026-04-19T11:30:06.869-05:00
+published: 2026-04-19T11:30:06.869-05:00
 ---
 
 Every ServiceNow email comes from a system-defined sender (`sys_email_account`).
@@ -17,7 +17,7 @@ You _can_ override this on a notification-by-notification basis using the `from`
 - Default → _companyName ServiceNow_
 - Notification override → _IT Service Desk_
 
-# Where Things Break Down
+## Where Things Break Down
 
 ==What if the display name should change based on the \*\*record itself\*\*?==
 
@@ -39,19 +39,19 @@ You end up with:
 
 And when emails come from the wrong name, users stop trusting the system.
 
-# The Better Approach: Email Display Name Override
+## The Better Approach: Email Display Name Override
 
 **One notification. _Dynamic_ display names.**
 
 Instead of cloning notifications, move the logic to a dedicated table.
 
-## Notification (Keep it simple)
+### Notification (Keep it simple)
 
 | Name                | Table    | On Insert | Conditions | From    |
 | ------------------- | -------- | --------- | ---------- | ------- |
 | Incident was opened | Incident | True      | (Blank)    | (Blank) |
 
-## Email Display Name Override
+### Email Display Name Override
 
 | Name             | Table    | Conditions                    | Email Display Name   |
 | ---------------- | -------- | ----------------------------- | -------------------- |
@@ -64,13 +64,13 @@ Instead of cloning notifications, move the logic to a dedicated table.
 - The display name is resolved dynamically
 - No duplication, no overlap
 
-## Execution Order
+### Execution Order
 
 1. Notification `from` field
 2. Email Display Name Override table
 3. System default (`sys_email_account`)
 
-# Key Takeaway
+## Key Takeaway
 
 **Don’t duplicate notifications to change who an email appears to come from.**\
 Centralize that logic and let it scale cleanly.
