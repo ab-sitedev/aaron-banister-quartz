@@ -9,16 +9,12 @@ export const sharedPageComponents: SharedLayout = {
     Component.Comments({
       provider: 'giscus',
       options: {
-        // from data-repo
         repo: 'ab-sitedev/aaron-banister-quartz',
-        // from data-repo-id
         repoId: 'R_kgDOSGWluQ',
-        // from data-category
         category: 'Announcements',
-        // from data-category-id
         categoryId: 'DIC_kwDOSGWluc4C7LTu',
-        // from data-lang
-        lang: 'en'
+        lang: 'en',
+        inputPosition: 'top'
       }
   }),
 ],
