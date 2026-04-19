@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-04-18T22:52:32.204-05:00
-modified: 2026-04-19T16:08:31.711-05:00
-published: 2026-04-19T16:08:31.711-05:00
+modified: 2026-04-19T16:10:42.363-05:00
+published: 2026-04-19T16:10:42.363-05:00
 ---
 
 > [!Attention] A Grain of Salt
@@ -42,7 +42,7 @@ After toiling over less-than-sufficient OOB solutions, I began working with our 
 1. **Don't make users "shop" a catalog for their hardware.**
    Give users a single catalog item that supports multiple hardware items.
 2. **Empower procurement admins.**
-   Let them manage hardware availability and metadata directly in production. <span class="realistic-marker-highlight">(Eliminate dev effort)</span>
+   Let them manage hardware availability and metadata directly in production. <span class="realistic-highlighted-text">(Eliminate dev effort)</span>
 3. **Simplify approvals.**
    They can still be procedural, but have them apply to the whole request instead of each individual item.
 4. **Integrate seamlessly...**
